@@ -1,0 +1,26 @@
+.container{height: 70vh;}
+.box{
+    padding:25px;
+    text-align: center;
+    color: white;
+    display: grid;
+}
+#box1{ /*header - top*/
+    background-color: teal;
+    text-align: center;
+}
+#box2{ /*sidebar - side*/
+    background-color: rgb(30, 146, 107);
+    height: 100%;
+    float: left;
+}
+#box3{ /*content - center*/
+    background-color: rgb(115, 202, 173);
+    height: 100%;
+}
+#box4{ /*footer - bottom*/
+    background-color: rgb(21, 109, 80);
+    text-align: center;
+}
+               
+    

@@ -1,0 +1,46 @@
+.exercises{
+    list-style: none;
+    overflow: hidden;
+    margin: 1%;
+    margin-left: 26%;
+}
+.exercises li{
+    display: inline-block;
+    font-size: 1px;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 3px black;
+}
+.exercises li a {
+    text-decoration: none;
+    color:rgb(229, 241, 248)
+}
+.this p{
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+    color: beige;
+}
+div.this{
+    border-style: hidden;
+    padding: 0.3%;
+    background-color: rgb(61, 179, 104);
+    margin-top: 2.7%;
+    border-radius: 10px;
+    width: 60%;
+    transition: 0.3s;
+    text-align: center;
+    border-collapse: collapse;
+}
+.this:hover{
+    box-shadow: 0 10px 6px 0 rgb(166, 232, 190);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
